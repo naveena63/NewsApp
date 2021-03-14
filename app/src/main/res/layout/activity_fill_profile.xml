@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+
+            android:id="@+id/coordinator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_primary"
+            android:orientation="vertical"
+            android:padding="10dp"
+            tools:context=".Login.LoginActivity">
+
+            <LinearLayout
+                android:id="@+id/relative"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context=".Activities.FillProfileActivity">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_primary"
+                    tools:context=".Activities.ProfileActivity">
+
+                    <RelativeLayout
+                        android:id="@+id/widget30"
+                        android:layout_width="fill_parent"
+                        android:layout_height="260dp"
+                        android:background="@color/color_primary">
+
+                        <TextView
+
+                            android:id="@+id/profile_toolbar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/montserrat_medium"
+                            android:text="Profile"
+                            android:textColor="@color/white"
+                            android:textSize="22sp"
+                            app:drawableStartCompat="@drawable/back_arrow" />
+
+                        <ImageView
+                            android:id="@+id/background_image"
+                            android:layout_width="219dp"
+                            android:layout_height="210dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/profilepic_bg"
+                            tools:ignore="ContentDescription" />
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/profile_image"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/camera"/>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/profile_image"
+                            android:gravity="center"
+                            android:text="@string/select_image"
+                            android:textColor="@color/white" />
+
+
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/linear_bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/widget30"
+                        android:orientation="vertical" />
+
+                    <LinearLayout
+                        android:id="@+id/linearlayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/widget30"
+
+                        android:background="@drawable/dashboard_bg"
+                        android:orientation="vertical">
+
+
+                        <RelativeLayout
+                            android:id="@+id/languageRelatve"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/spinner_background"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/select_language"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/montserrat_medium"
+                                android:text="@string/language"
+                                android:textColor="@color/gray"
+                                tools:ignore="RelativeOverlap" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginTop="4dp"
+                                android:src="@drawable/down_arrow"
+                                tools:ignore="ContentDescription" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/spinner_background"
+                            android:padding="10dp">
+
+                            <EditText
+                                android:id="@+id/fullName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@null"
+                                android:fontFamily="@font/montserrat"
+                                android:hint="@string/full_name"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/gray"
+                                android:textSize="13sp"
+                                android:importantForAutofill="no" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/spinner_background"
+                            android:padding="10dp">
+
+                            <EditText
+                                android:id="@+id/tagName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@null"
+                                android:fontFamily="@font/montserrat"
+                                android:hint="@string/tag_name"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/gray"
+                                android:textSize="13sp"
+                                android:importantForAutofill="no"
+                                android:inputType="text" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/spinner_background"
+                            android:padding="10dp">
+
+                            <EditText
+                                android:id="@+id/pincode"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@null"
+                                android:fontFamily="@font/montserrat"
+                                android:hint="@string/pincode"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/gray"
+                                android:textSize="13sp"
+                                android:importantForAutofill="no"
+                                android:inputType="number" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/relativeState"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/spinner_background"
+                            android:padding="10dp">
+
+                            <!--                <TextView-->
+                            <!--                    android:id="@+id/select_state"-->
+                            <!--                    android:layout_width="match_parent"-->
+                            <!--                    android:layout_height="wrap_content"-->
+                            <!--                    android:layout_marginTop="4dp"-->
+                            <!--                   -->
+                            <!--                    android:text="Please select a State"-->
+                            <!--                    android:textSize="14dp"-->
+                            <!--                    android:textStyle="bold"-->
+                            <!--                    android:fontFamily="@font/montserrat_medium"-->
+                            <!--            />-->
+                            <TextView
+                                android:id="@+id/select_State"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/montserrat_medium"
+                                android:text="State"
+                                android:textColor="@color/gray" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+
+                                android:layout_marginTop="4dp"
+                                android:src="@drawable/down_arrow" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/relativeDistrict"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/spinner_background"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/select_district"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/montserrat_medium"
+                                android:text="District"
+                                android:textColor="@color/gray" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginTop="4dp"
+                                android:src="@drawable/down_arrow" />
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:id="@+id/relativeMandal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/spinner_background"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/select_Mandal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/montserrat_medium"
+                                android:text="Mandal"
+                                android:textColor="@color/gray" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginTop="4dp"
+                                android:src="@drawable/down_arrow" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/relativeVillage"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/spinner_background"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/select_Village"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/montserrat_medium"
+                                android:text="Village"
+                                android:textColor="@color/gray" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginTop="4dp"
+                                android:src="@drawable/down_arrow" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentBottom="true"-->
+<!--                        android:layout_gravity="center"-->
+
+<!--                        android:orientation="horizontal"-->
+<!--                        android:weightSum="2">-->
+
+
+
+
+<!--                    </LinearLayout>-->
+                </RelativeLayout>
+                <Button
+                    android:id="@+id/next_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="center|bottom"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:text="@string/next"
+                    android:textAllCaps="false"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </ScrollView>
+</layout>

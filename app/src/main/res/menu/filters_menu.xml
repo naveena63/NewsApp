@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+    <item android:id="@+id/news_text"
+        android:checkable="true"
+        android:title="News with text" />
+
+
+    <item android:id="@+id/audio_news"
+        android:checkable="true"
+        android:title="Audio News" />
+    <item android:id="@+id/video_news"
+        android:checkable="true"
+        android:title="Video News" />
+    <item
+        android:id="@+id/news_pictures"
+        android:checkable="true"
+        android:title="News with pictures" />
+    </group>
+</menu>

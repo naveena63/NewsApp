@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/rightmark_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/right_mark"
+                android:visibility="invisible" />
+
+
+            <TextView
+                android:id="@+id/textview_fliter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/rightmark_iv"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="News with text" />
+        </RelativeLayout>
+        <View
+            android:layout_width="150dp"
+            android:layout_height="0.5dp"
+            android:background="@color/gray"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/rightmark_iv_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/right_mark"
+                android:visibility="invisible" />
+
+
+            <TextView
+                android:id="@+id/textview_fliter_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/rightmark_iv_one"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Audio News" />
+        </RelativeLayout>
+        <View
+            android:layout_width="150dp"
+            android:layout_height="0.5dp"
+            android:background="@color/gray"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/rightmark_iv_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/right_mark"
+                android:visibility="invisible" />
+
+
+            <TextView
+                android:id="@+id/textview_fliter_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/rightmark_iv_two"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Video News" />
+        </RelativeLayout>
+        <View
+            android:layout_width="157dp"
+            android:layout_height="0.5dp"
+            android:background="@color/gray"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/rightmark_iv_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/right_mark"
+                android:visibility="invisible" />
+
+
+            <TextView
+                android:id="@+id/textview_fliter_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@id/rightmark_iv_three"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="News with pictures" />
+        </RelativeLayout>
+        <View
+            android:layout_width="150dp"
+            android:layout_height="0.5dp"
+            android:background="@color/gray"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

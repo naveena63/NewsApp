@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="news_item_dummytext">Delhis Sunder Nursery Chosen Foe 2 UNESCO Asia-Pacific Awards  Nursery Chosen Foe 2 UNESCO</string>
+    <string name="location_dummytext">Hi-tech city, Hyderabad</string>
+    <string name="create_new_location">Create a new location</string>
+    <string name="continue_as_guest"> <u>Continue as a Guest</u></string>
+    <string name="new_here_text"><b><font color='#FFFFFFFF'>New here?</font><font color='#F44336'><u>Signup</u></font></b></string>
+    <string name="alredy_login_text"><font color='#FFFFFFFF'>Already joined?</font><font color='#F44336'><u>Login</u></font></string>
+    <string name="dummy_text1">Delhis Sunder Nursery Chosen Foe 2 UNESCO Asia-Pacific
+        Award Delhis Sunder Nursery Chosen Foe 2 UNESCO Asia-Pacific Award Delhis Sunder
+        Nursery Chosen Foe 2 UNESCO Asia-Pacific Award Delhis Sunder Nursery Chosen Foe 2
+        UNESCO Asia-Pacific Award Delhis Sunder Nursery Chosen Foe 2 UNESCO Asia-Pacific Award
+      UNESCO Asia-Pacific Award Delhis Sunder Nursery Chosen Foe 2 UNESCO Asia-Pacific Award
+          UNESCO Asia-Pacific Award Delhis Sunder Nursery Chosen Foe 2 UNESCO Asia-Pacific Award
+          UNESCO Asia-Pacific Award Delhis Sunder Nursery Chosen Foe 2 UNESCO Asia-Pacific Award
+        UNESCO Asia-Pacific Award Delhis Sunder Nursery Chosen Foe 2 UNESCO Asia-Pacific Award
+    </string>
+    <string name="apply_news_type">Apply</string>
+    <string name="note_compose">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley
+        of type and scrambled it to make a type specimen book. </string>
+    <string name="attcahment">Attachment<i>(if any)</i></string>
+    <string name="dialog_message">Do you want add this location to favorites</string>
+    <string name="dialog_title">mka</string>
+    <string name="please_try_again">please try again later</string>
+    <string name="select_image">Select Image</string>
+    <string name="language">language</string>
+    <string name="full_name">full_name</string>
+    <string name="tag_name">tag_name</string>
+    <string name="pincode">pincode</string>
+    <string name="next">Next</string>
+    <string name="submit">submit</string>
+    <string name="todo">TODO</string>
+    <string name="favorite_location_name">Favorite Location name</string>
+    <string name="district">District</string>
+    <string name="no_data">No Data</string>
+
+</resources>

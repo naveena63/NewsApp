@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/i_music"
+        android:checked="true"
+        android:icon="@drawable/news_icon"
+        android:title="News" />
+
+    <item
+        android:id="@+id/i_backup"
+        android:icon="@drawable/location_icon"
+        android:title="Location" />
+
+    <item
+        android:id="@+id/i_favor"
+        android:icon="@drawable/live_news"
+        android:title="Live News" />
+    <item
+        android:id="@+id/i_visibility"
+        android:icon="@drawable/compose_icon"
+        android:title="Compose" />
+</menu>
